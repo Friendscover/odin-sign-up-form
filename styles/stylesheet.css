@@ -1,8 +1,8 @@
-p {
-    font-size: 120px;
-    color: white;
+.sidebar-logo {
+    background-image: url("../images/fieldwork.jpg");
 }
 
-body {
-    background-image: url("../images/fieldwork.jpg");
+.form-area {
+    background-color: white;
+    padding-left: 200px;
 }
