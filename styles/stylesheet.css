@@ -9,13 +9,28 @@ body {
     background-image: url("../images/fieldwork cropped.jpg");
 }
 
+h1 {
+    font-size: 55px;
+    color: white;
+}
+
 h3 {
     margin-bottom: 50px;
 }
 
 .sidebar-logo {
-    width: 30vw;
-    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 20vh;
+    padding: 5px;
+    border-radius: 15px;
+
+    width: 25vw;
+    height: 20vh;
+
+    background-color: rgba(12, 12, 12, 0.5);
 }
 
 .form-area {
@@ -23,7 +38,7 @@ h3 {
 
     padding-top: 150px;
     padding-left: 50px;
-    width: 70vw;
+    width: 71vw;
 
     background-color: white;
 }
@@ -31,6 +46,7 @@ h3 {
 .sign-up-form {
     padding: 1px 10px 5px 10px;
     box-shadow: 2px 2px 2px 2px rgb(97, 97, 97);
+    margin-right: 20px;
     
     border-radius: 15px;
 }
