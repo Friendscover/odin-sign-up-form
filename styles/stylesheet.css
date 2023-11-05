@@ -75,11 +75,16 @@ input:focus {
     border-color: rgb(75, 127, 206);
 }
 
+input:invalid:required {
+    border-color: rgb(253, 0, 0);
+}
+
 button {
     background-color: #596D48;
     color: white;
 
     font-size: 1.1em;
     padding: 10px 30px 10px 30px;
+    margin-top: 20px;
     border-radius: 10px;
 }
