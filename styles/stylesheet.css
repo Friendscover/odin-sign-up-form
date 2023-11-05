@@ -79,6 +79,10 @@ input:invalid:required {
     border-color: rgb(253, 0, 0);
 }
 
+#error {
+    color: rgb(206, 0, 0);
+}
+
 button {
     background-color: #596D48;
     color: white;
